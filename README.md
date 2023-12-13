@@ -1,4 +1,4 @@
-# Personal-Portfolio
+# my_portfolio
 
 # 📗 Table of Contents
 
@@ -20,9 +20,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Personal-Portfolio] <a name="about-project"></a>
+# 📖 [my_portfolio] <a name="about-project"></a>
 
-Personal-Portfolio is a project that display my personal both technical and professional skills and the projects I have done and contributed in the past.
+my_portfolio is a project that display my personal both technical and professional skills and the projects I have done and contributed in the past.
 
 ## 🛠 Built With <a name="built-with"></a>
 
