@@ -66,4 +66,22 @@ img {
 
 .title {
   font: var(--title-font);
+  color: var(--primary-color)
+}
+
+.title_desc {
+  color: var(--secondary-color);
+}
+
+.headline_desc {
+  font: var(--desc-font);
+  color: var(--primary-color);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  color: var(--primary-color);
+  font: var(--desc-font);
 }
