@@ -104,12 +104,13 @@ img {
 
 /* style the portfolio section */
 
-.portfolio {
+.portfolio,
+.skills {
   margin-top: 2em;
 }
 
 .cards_cont {
-  padding: 2em 1em;
+  padding: 2em 0.75em;
 }
 
 .card-title {
@@ -149,20 +150,31 @@ img {
 /* style the about section */
 
 .about {
-  margin-top: 2em;
+  background-image: url(../assets/illustration-about-me-mobile.svg), url(../assets/Mask-Group.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, top right;
+  padding: 4em 0 2em 0;
 }
 
 .about_desc {
   margin: 1em 0 1.5em 0;
 }
 
-.about-card-body {
+.skills-card-body {
   background-color: var(--tertiary-color);
-  height: 316px;
+  min-height: 316px;
 }
 
-.about-card-body .tag {
+.skills-card-body .tag {
   background-color: #fff;
   padding: 0.75em 1em;
   color: var(--secondary-color);
+}
+
+.skills-card-body img {
+  margin-top: 1em;
+}
+
+.skills-card-body .card-title {
+  margin-top: -0.5em;
 }
