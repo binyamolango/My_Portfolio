@@ -18,6 +18,7 @@
   --secondary-color: #36B37E;
   --tertiary-color: #EBF0EE;
   --quaternary-color: #C1C7D0;
+  --social-color: #505F79;
 }
 
 body {
@@ -42,10 +43,16 @@ img {
 .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .header {
+  align-items: center;
   margin: 0.5em;
 }
 
@@ -62,6 +69,7 @@ img {
 .headline {
   background-image: url(../assets/header-illsutration-mobile.svg);
   min-height: 68vh;
+  padding-top: 4em;
 }
 
 .title {
@@ -79,9 +87,8 @@ img {
 }
 
 .socials {
-  display: flex;
   justify-content: center;
   gap: 1em;
-  color: var(--primary-color);
+  color: var(--social-color);
   font: var(--desc-font);
 }
