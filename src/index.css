@@ -19,6 +19,7 @@
   --tertiary-color: #EBF0EE;
   --quaternary-color: #C1C7D0;
   --social-color: #505F79;
+  --card-color: #3A4A42;
 }
 
 body {
@@ -40,12 +41,17 @@ img {
   max-width: 768px;
 }
 
-.row {
+.min_container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.my_row {
   display: flex;
   justify-content: space-between;
 }
 
-.col {
+.my_col {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -57,11 +63,11 @@ img {
 }
 
 .logo {
-  width: 12%;
+  width: 50px;
 }
 
 .menu_btn {
-  width: 10%;
+  width: 50px;
 }
 
 /* style the headline section */
@@ -83,7 +89,8 @@ img {
   color: var(--secondary-color);
 }
 
-.headline_desc {
+.headline_desc,
+.about_desc {
   font: var(--desc-font);
   color: var(--primary-color);
 }
@@ -93,4 +100,104 @@ img {
   gap: 1em;
   color: var(--social-color);
   font: var(--desc-font);
+}
+
+/* style the portfolio section */
+
+.portfolio,
+.skills {
+  margin-top: 2em;
+}
+
+.portfolio,
+.skills {
+  justify-content: center;
+}
+
+.cards_cont {
+  padding: 2em 0.75em;
+}
+
+.card-title {
+  font: var(--card-title-font);
+  color: var(--card-color)
+}
+
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em;
+  margin: 1em 0 2em 0;
+}
+
+.tag {
+  font: var(--card-tag-font);
+  color: var(--card-color);
+  background: var(--tertiary-color);
+  border-radius: 5px 5px;
+  padding: 0.5em 0.75em;
+}
+
+.project_btn {
+  font: var(--button-font);
+  color: #fff;
+  border-radius: 5px 5px;
+  background: var(--secondary-color);
+  padding: 0.75em;
+  text-decoration: none;
+}
+
+.project_btn_cont {
+  margin: 1em 0;
+}
+
+/* style the about section */
+
+.about {
+  background-image: url(../assets/illustration-about-me-mobile.svg), url(../assets/Mask-Group.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, top right;
+  padding: 4em 0 2em 0;
+}
+
+.about_desc {
+  margin: 1em 0 1.5em 0;
+}
+
+/* style the skills section */
+
+.skills-card-body {
+  background-color: var(--tertiary-color);
+  min-height: 316px;
+}
+
+.skills-card-body .tag {
+  background-color: #fff;
+  padding: 0.75em 1em;
+  color: var(--secondary-color);
+}
+
+.skills-card-body img {
+  margin-top: 1em;
+}
+
+.skills-card-body .card-title {
+  margin-top: -0.5em;
+}
+
+.skills .row {
+  justify-content: center;
+}
+
+/* style contact section */
+
+.contact .title {
+  margin: 1em 0;
+}
+
+.email_address {
+  color: var(--social-color);
+  font: var(--desc-font);
+  margin: 1.5em 0;
 }

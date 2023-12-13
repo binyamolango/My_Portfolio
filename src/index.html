@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Binyam Yohannes</title>
   <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/1ed5b0f4f6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="header row">
+  <header class="header my_row">
     <div class="logo">
       <a href="#headline"><img src="../assets/by-logo.png" alt="by_logo" class="logo_img"></a>
     </div>
@@ -19,7 +20,7 @@
   </header>
 
   <section class="headline" id="headline">
-    <div class="container col">
+    <div class="container my_col">
       <h1 class="title">
         Hey there, <br> I'm Binyam. <br>
         <span class="title_desc">
@@ -32,7 +33,7 @@
         don’t hesitate to contact me.
       </p>
 
-      <div class="socials row">
+      <div class="socials my_row">
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-linkedin-in"></i>
         <i class="fa-brands fa-medium"></i>
@@ -40,5 +41,185 @@
       </div>
     </div>
   </section>
+
+  <section class="portfolio" id="portfolio">
+    <h1 class="title min_container">My Recent Works</h1>
+    
+    <div>
+      <img src="../assets/Indicator.png" alt="line">
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 cards_cont">
+      <div class="col">
+        <div class="card">
+          <img src="../assets/weather_app.png" class="card-img-top" alt="weather_app_img">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <div class="card-text">
+              <div class="tag">React</div>
+              <div class="tag">Redux</div>
+              <div class="tag">CSS</div>
+              <div class="tag">JavaScript</div>
+            </div>
+            <div class="project_btn_cont">
+              <a href="#" class="project_btn">See project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../assets/space_travelers_hub.png" class="card-img-top" alt="weather_app_img">
+          <div class="card-body">
+            <h5 class="card-title">Space Travelers' Hub</h5>
+            <div class="card-text">
+              <div class="tag">React</div>
+              <div class="tag">Redux</div>
+              <div class="tag">CSS</div>
+              <div class="tag">JavaScript</div>
+            </div>
+            <div class="project_btn_cont">
+              <a href="#" class="project_btn">See project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../assets/book_store.png" class="card-img-top" alt="weather_app_img">
+          <div class="card-body">
+            <h5 class="card-title">Book Store App</h5>
+            <div class="card-text">
+              <div class="tag">React</div>
+              <div class="tag">Redux</div>
+              <div class="tag">CSS</div>
+              <div class="tag">JavaScript</div>
+            </div>
+            <div class="project_btn_cont">
+              <a href="#" class="project_btn">See project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="../assets/tv_shows.png" class="card-img-top" alt="weather_app_img">
+          <div class="card-body">
+            <h5 class="card-title">TV Shows</h5>
+            <div class="card-text">
+              <div class="tag">JavaScript</div>
+              <div class="tag">CSS</div>
+              <div class="tag">External API</div>
+              <div class="tag">HTML</div>
+            </div>
+            <div class="project_btn_cont">
+              <a href="#" class="project_btn">See project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h1 class="title">About me</h1>
+
+      <p class="about_desc">
+        I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+        don’t hesitate to contact me.
+      </p>
+
+      <a href="#" class="project_btn">Get my resume</a>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="row row-cols-1 row-cols-md-2 g-4 cards_cont">
+      <div class="col">
+        <div class="card">
+          <div class="card-body skills-card-body">
+            <img src="../assets/icon-languages.svg" alt="icon-languages">
+            <h5 class="card-title">Languages</h5>
+            <div class="card-text">
+              <div class="tag">JavaScript</div>
+              <div class="tag">Ruby</div>
+              <div class="tag">HTML</div>
+              <div class="tag">CSS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body skills-card-body">
+            <img src="../assets/icon-frameworks.svg" alt="icon-frameworks">
+            <h5 class="card-title">Frameworks</h5>
+            <div class="card-text">
+              <div class="tag">React.js</div>
+              <div class="tag">Ruby on Rails</div>
+              <div class="tag">RSpec</div>
+              <div class="tag">Capybara</div>
+              <div class="tag">Selenium</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body skills-card-body">
+            <img src="../assets/icon-skills.svg" alt="icon-skills">
+            <h5 class="card-title">Skills</h5>
+            <div class="card-text">
+              <div class="tag">Database Management</div>
+              <div class="tag">Version Control</div>
+              <div class="tag">CLI</div>
+              <div class="tag">Web Development</div>
+              <div class="tag">API Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h1 class="title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
+      
+      <form action="" class="form">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full name">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Hey I'd like to connect to..."></textarea>
+        </div>
+        <button type="submit" class="project_btn">Get is touch</button>
+      </form>
+
+      <p class="email_address">olangobinyam@gmail.com</p>
+
+      <div class="socials my_row">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-medium"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+
+      <div>
+        <img src="../assets/Shape.svg" alt="line">
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
