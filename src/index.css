@@ -89,7 +89,8 @@ img {
   color: var(--secondary-color);
 }
 
-.headline_desc {
+.headline_desc,
+.about_desc {
   font: var(--desc-font);
   color: var(--primary-color);
 }
@@ -119,7 +120,7 @@ img {
 .card-text {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 0.5em;
   margin: 1em 0 2em 0;
 }
@@ -143,4 +144,25 @@ img {
 
 .project_btn_cont {
   margin: 1em 0;
+}
+
+/* style the about section */
+
+.about {
+  margin-top: 2em;
+}
+
+.about_desc {
+  margin: 1em 0 1.5em 0;
+}
+
+.about-card-body {
+  background-color: var(--tertiary-color);
+  height: 316px;
+}
+
+.about-card-body .tag {
+  background-color: #fff;
+  padding: 0.75em 1em;
+  color: var(--secondary-color);
 }
