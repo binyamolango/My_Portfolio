@@ -118,7 +118,9 @@ img {
 
 .card-text {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  gap: 0.5em;
   margin: 1em 0 2em 0;
 }
 
