@@ -186,10 +186,6 @@ Example command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-**Ajrass Tajemouti** has contributed to my project.
-
-- GitHub: [@githubhandle](https://github.com/tajemouti)
-
 Other contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
