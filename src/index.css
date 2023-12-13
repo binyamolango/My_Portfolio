@@ -19,6 +19,7 @@
   --tertiary-color: #EBF0EE;
   --quaternary-color: #C1C7D0;
   --social-color: #505F79;
+  --card-color: #3A4A42;
 }
 
 body {
@@ -101,3 +102,43 @@ img {
 }
 
 /* style the portfolio section */
+
+.portfolio {
+  margin-top: 2em;
+}
+
+.cards_cont {
+  padding: 2em 1em;
+}
+
+.card-title {
+  font: var(--card-title-font);
+  color: var(--card-color)
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em 0 2em 0;
+}
+
+.tag {
+  font: var(--card-tag-font);
+  color: var(--card-color);
+  background: var(--tertiary-color);
+  border-radius: 5px 5px;
+  padding: 0.5em 0.75em;
+}
+
+.project_btn {
+  font: var(--button-font);
+  color: #fff;
+  border-radius: 5px 5px;
+  background: var(--secondary-color);
+  padding: 0.75em;
+  text-decoration: none;
+}
+
+.project_btn_cont {
+  margin: 1em 0;
+}
