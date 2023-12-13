@@ -40,12 +40,17 @@ img {
   max-width: 768px;
 }
 
-.row {
+.min_container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.my_row {
   display: flex;
   justify-content: space-between;
 }
 
-.col {
+.my_col {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -94,3 +99,5 @@ img {
   color: var(--social-color);
   font: var(--desc-font);
 }
+
+/* style the portfolio section */
