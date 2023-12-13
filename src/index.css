@@ -109,6 +109,11 @@ img {
   margin-top: 2em;
 }
 
+.portfolio,
+.skills {
+  justify-content: center;
+}
+
 .cards_cont {
   padding: 2em 0.75em;
 }
@@ -160,6 +165,8 @@ img {
   margin: 1em 0 1.5em 0;
 }
 
+/* style the skills section */
+
 .skills-card-body {
   background-color: var(--tertiary-color);
   min-height: 316px;
@@ -177,4 +184,8 @@ img {
 
 .skills-card-body .card-title {
   margin-top: -0.5em;
+}
+
+.skills .row {
+  justify-content: center;
 }
