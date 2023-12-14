@@ -98,6 +98,10 @@ img {
 .socials {
   justify-content: center;
   gap: 1em;
+}
+
+.socials a {
+  text-decoration: none;
   color: var(--social-color);
   font: var(--desc-font);
 }
@@ -197,7 +201,11 @@ img {
 }
 
 .email_address {
-  color: var(--social-color);
-  font: var(--desc-font);
   margin: 1.5em 0;
+}
+
+.email_address a {
+  text-decoration: none;
+  font: var(--desc-font);
+  color: var(--social-color);
 }
