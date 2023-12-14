@@ -10,6 +10,7 @@
 
 :root {
   --title-font: normal normal 700 2.5rem/1.3 'Inter', sans-serif;
+  --title-font-desk: normal normal 800 3rem/1.3 'Inter', sans-serif;
   --desc-font: normal normal 400 1.3rem/1.4 'Inter', sans-serif;
   --card-title-font: normal normal 600 1.5rem/1.3 'Inter', sans-serif;
   --card-tag-font: normal normal 600 0.8rem/1.4 'Inter', sans-serif;
@@ -62,15 +63,15 @@ img {
 }
 
 .header {
-  align-items: center;
-  margin: 0.5em;
+  overflow: hidden;
+  z-index: 5;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  opacity: 0.9;
 }
 
 .logo {
-  width: 50px;
-}
-
-.menu_btn {
   width: 50px;
 }
 
@@ -81,7 +82,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 68vh;
-  padding-top: 4em;
+  padding-top: 5em;
 }
 
 .title {
@@ -228,4 +229,15 @@ img {
 
 .email_address a:hover {
   color: var(--social-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .headline {
+    background-image: url(../assets/Header-llustration-desktop.svg);
+    padding-top: 8em;
+  }
+
+  .headline .title {
+    font: var(--title-font-desk);
+  }
 }

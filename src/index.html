@@ -9,14 +9,30 @@
   <script src="https://kit.fontawesome.com/1ed5b0f4f6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="header my_row">
-    <div class="logo">
-      <a href="#headline"><img src="../assets/by-logo.png" alt="by_logo" class="logo_img"></a>
-    </div>
-
-    <button class="menu_btn">
-      <img src="../assets/Icon - Menu.png" alt="menu_btn_img" class="menu_btn_img">
-    </button>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#headline">
+          <img src="../assets/by-logo.png" alt="by_logo" class="logo_img">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <section class="headline" id="headline">
@@ -124,7 +140,7 @@
     </div>
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
       <h1 class="title">About me</h1>
 
@@ -188,7 +204,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="container">
       <h1 class="title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
       
