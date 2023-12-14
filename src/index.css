@@ -31,6 +31,10 @@ button {
   border: none;
 }
 
+button:active {
+  background-color: #008552;
+}
+
 img {
   max-width: 100%;
 }
@@ -106,6 +110,10 @@ img {
   font: var(--desc-font);
 }
 
+.socials a:hover {
+  color: var(--social-color);
+}
+
 /* style the portfolio section */
 
 .portfolio,
@@ -150,6 +158,14 @@ img {
   background: var(--secondary-color);
   padding: 0.75em;
   text-decoration: none;
+}
+
+.project_btn:hover {
+  color: #fff;
+}
+
+.project_btn:active {
+  background-color: #008552;
 }
 
 .project_btn_cont {
@@ -207,5 +223,9 @@ img {
 .email_address a {
   text-decoration: none;
   font: var(--desc-font);
+  color: var(--social-color);
+}
+
+.email_address a:hover {
   color: var(--social-color);
 }
