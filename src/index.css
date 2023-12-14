@@ -82,7 +82,11 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 68vh;
-  padding-top: 5em;
+  padding-top: 10em;
+}
+
+.headline .my_col {
+  gap: 1.5em;
 }
 
 .title {
@@ -234,10 +238,16 @@ img {
 @media only screen and (min-width: 768px) {
   .headline {
     background-image: url(../assets/Header-llustration-desktop.svg);
-    padding-top: 8em;
+    padding-top: 15em;
   }
 
   .headline .title {
     font: var(--title-font-desk);
+  }
+
+  .headline_desc {
+    width: 65%;
+    margin: 0 auto;
+    max-width: 1080px;
   }
 }
