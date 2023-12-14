@@ -6,10 +6,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 :root {
   --title-font: normal normal 700 2.5rem/1.3 'Inter', sans-serif;
+  --title-font-desk: normal normal 800 3rem/1.3 'Inter', sans-serif;
   --desc-font: normal normal 400 1.3rem/1.4 'Inter', sans-serif;
   --card-title-font: normal normal 600 1.5rem/1.3 'Inter', sans-serif;
   --card-tag-font: normal normal 600 0.8rem/1.4 'Inter', sans-serif;
@@ -29,6 +31,10 @@ body {
 button {
   background: none;
   border: none;
+}
+
+button:active {
+  background-color: #008552;
 }
 
 img {
@@ -58,15 +64,15 @@ img {
 }
 
 .header {
-  align-items: center;
-  margin: 0.5em;
+  overflow: hidden;
+  z-index: 5;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  opacity: 0.9;
 }
 
 .logo {
-  width: 50px;
-}
-
-.menu_btn {
   width: 50px;
 }
 
@@ -76,8 +82,11 @@ img {
   background-image: url(../assets/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 68vh;
-  padding-top: 4em;
+  padding: 10em 0 5em 0;
+}
+
+.headline .my_col {
+  gap: 1.5em;
 }
 
 .title {
@@ -98,8 +107,16 @@ img {
 .socials {
   justify-content: center;
   gap: 1em;
+}
+
+.socials a {
+  text-decoration: none;
   color: var(--social-color);
   font: var(--desc-font);
+}
+
+.socials a:hover {
+  color: var(--social-color);
 }
 
 /* style the portfolio section */
@@ -115,6 +132,7 @@ img {
 }
 
 .cards_cont {
+  justify-content: center;
   padding: 2em 0.75em;
 }
 
@@ -148,8 +166,17 @@ img {
   text-decoration: none;
 }
 
+.project_btn:hover {
+  color: #fff;
+}
+
+.project_btn:active {
+  background-color: #008552;
+}
+
 .project_btn_cont {
   margin: 1em 0;
+  padding: 1em 0;
 }
 
 /* style the about section */
@@ -162,7 +189,11 @@ img {
 }
 
 .about_desc {
-  margin: 1em 0 1.5em 0;
+  padding: 1em 0 1.5em 0;
+}
+
+.about .container {
+  padding-bottom: 2em;
 }
 
 /* style the skills section */
@@ -186,10 +217,6 @@ img {
   margin-top: -0.5em;
 }
 
-.skills .row {
-  justify-content: center;
-}
-
 /* style contact section */
 
 .contact .title {
@@ -197,7 +224,90 @@ img {
 }
 
 .email_address {
-  color: var(--social-color);
-  font: var(--desc-font);
   margin: 1.5em 0;
+}
+
+.email_address a {
+  text-decoration: none;
+  font: var(--desc-font);
+  color: var(--social-color);
+}
+
+.email_address a:hover {
+  color: var(--social-color);
+}
+
+@media only screen and (min-width: 990px) {
+  .container {
+    width: 70%;
+    max-width: 1080px;
+  }
+
+  .headline {
+    background-image: url(../assets/Header-llustration-desktop.svg);
+    padding: 15em 0 25em 0;
+    margin-bottom: 8em;
+  }
+
+  .headline .title {
+    font: var(--title-font-desk);
+  }
+
+  .headline_desc {
+    width: 65%;
+    margin: 0 auto;
+    max-width: 1080px;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .about {
+    background-image: url(../assets/illustration-about-me-2-desktop.svg), url(../assets/Frame3.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+    padding: 4em 0 2em 0;
+  }
+
+  .about_desc {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .contact {
+    margin-top: 3em;
+    background-image: url(../assets/Frame.svg), url(../assets/Frame2.svg), url(../assets/illustration-2-contact-form-desktop.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center right, bottom left, 250px 350px;
+    background-size: 12%, 12%, 12%;
+  }
+
+  .contact_row {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    margin-bottom: 10em;
+  }
+
+  .contact_row .title {
+    width: 40%;
+    text-align: left;
+    font-size: 2em;
+  }
+
+  .form {
+    width: 60%;
+  }
+
+  .form .project_btn_cont {
+    text-align: left;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--quaternary-color);
+  }
 }
