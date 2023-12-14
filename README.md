@@ -73,7 +73,7 @@ my_portfolio is a project that display my personal both technical and profession
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon
+- https://binyamolango.github.io/my_portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
