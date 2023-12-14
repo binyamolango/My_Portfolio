@@ -3,6 +3,8 @@ import projects from "./project.js";
 const popup = document.getElementById("popup");
 
 function popupWindow(event) {
+  popup.classList.toggle('hidden');
+
   const cardId = event.currentTarget.closest(".card").dataset.cardId;
   const project = projects[cardId];
   popup.innerHTML += `
