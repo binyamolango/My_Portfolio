@@ -79,7 +79,7 @@ img {
 /* style the headline section */
 
 .headline {
-  background-image: url(../assets/header-illsutration-mobile.svg);
+  background-image: url(./assets/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10em 0 5em 0;
@@ -182,7 +182,7 @@ img {
 /* style the about section */
 
 .about {
-  background-image: url(../assets/illustration-about-me-mobile.svg), url(../assets/Mask-Group.svg);
+  background-image: url(./assets/illustration-about-me-mobile.svg), url(./assets/Mask-Group.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, top right;
   padding: 4em 0 2em 0;
@@ -244,7 +244,7 @@ img {
   }
 
   .headline {
-    background-image: url(../assets/Header-llustration-desktop.svg);
+    background-image: url(./assets/Header-llustration-desktop.svg);
     padding: 15em 0 25em 0;
     margin-bottom: 8em;
   }
@@ -264,7 +264,7 @@ img {
   }
 
   .about {
-    background-image: url(../assets/illustration-about-me-2-desktop.svg), url(../assets/Frame3.svg);
+    background-image: url(./assets/illustration-about-me-2-desktop.svg), url(./assets/Frame3.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, top right;
     padding: 4em 0 2em 0;
@@ -277,9 +277,9 @@ img {
 
   .contact {
     margin-top: 3em;
-    background-image: url(../assets/Frame.svg), url(../assets/Frame2.svg), url(../assets/illustration-2-contact-form-desktop.svg);
+    background-image: url(./assets/Frame.svg), url(./assets/Frame2.svg), url(./assets/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center right, bottom left, 250px 350px;
+    background-position: center right, center left, 250px 350px;
     background-size: 12%, 12%, 12%;
   }
 
