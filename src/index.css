@@ -185,7 +185,7 @@ img {
   background-image: url(../assets/illustration-about-me-mobile.svg), url(../assets/Mask-Group.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, top right;
-  margin: 4em 0 2em 0;
+  padding: 4em 0 2em 0;
 }
 
 .about_desc {
@@ -239,7 +239,7 @@ img {
 
 @media only screen and (min-width: 990px) {
   .container {
-    width: 80%;
+    width: 70%;
     max-width: 1080px;
   }
 
@@ -263,8 +263,51 @@ img {
     display: none;
   }
 
+  .about {
+    background-image: url(../assets/illustration-about-me-2-desktop.svg), url(../assets/Frame3.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+    padding: 4em 0 2em 0;
+  }
+
   .about_desc {
     width: 65%;
     margin: 0 auto;
+  }
+
+  .contact {
+    margin-top: 3em;
+    background-image: url(../assets/Frame.svg), url(../assets/Frame2.svg), url(../assets/illustration-2-contact-form-desktop.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center right, bottom left, 250px 350px;
+    background-size: 12%, 12%, 12%;
+  }
+
+  .contact_row {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    margin-bottom: 10em;
+  }
+
+  .contact_row .title {
+    width: 40%;
+    text-align: left;
+    font-size: 2em;
+  }
+
+  .form {
+    width: 60%;
+  }
+
+  .form .project_btn_cont {
+    text-align: left;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--quaternary-color);
   }
 }
