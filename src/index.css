@@ -6,6 +6,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 :root {
@@ -81,8 +82,7 @@ img {
   background-image: url(../assets/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 68vh;
-  padding-top: 10em;
+  padding: 10em 0 5em 0;
 }
 
 .headline .my_col {
@@ -132,6 +132,7 @@ img {
 }
 
 .cards_cont {
+  justify-content: center;
   padding: 2em 0.75em;
 }
 
@@ -175,6 +176,7 @@ img {
 
 .project_btn_cont {
   margin: 1em 0;
+  padding: 1em 0;
 }
 
 /* style the about section */
@@ -183,11 +185,15 @@ img {
   background-image: url(../assets/illustration-about-me-mobile.svg), url(../assets/Mask-Group.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, top right;
-  padding: 4em 0 2em 0;
+  margin: 4em 0 2em 0;
 }
 
 .about_desc {
-  margin: 1em 0 1.5em 0;
+  padding: 1em 0 1.5em 0;
+}
+
+.about .container {
+  padding-bottom: 2em;
 }
 
 /* style the skills section */
@@ -211,10 +217,6 @@ img {
   margin-top: -0.5em;
 }
 
-.skills .row {
-  justify-content: center;
-}
-
 /* style contact section */
 
 .contact .title {
@@ -235,10 +237,16 @@ img {
   color: var(--social-color);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 990px) {
+  .container {
+    width: 80%;
+    max-width: 1080px;
+  }
+
   .headline {
     background-image: url(../assets/Header-llustration-desktop.svg);
-    padding-top: 15em;
+    padding: 15em 0 25em 0;
+    margin-bottom: 8em;
   }
 
   .headline .title {
@@ -249,5 +257,14 @@ img {
     width: 65%;
     margin: 0 auto;
     max-width: 1080px;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .about_desc {
+    width: 65%;
+    margin: 0 auto;
   }
 }
