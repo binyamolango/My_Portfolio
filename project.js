@@ -5,22 +5,34 @@ const projects = [
   {
     img: "./assets/weather_app.png",
     name: "Weather App",
-    stacks: ["React", "Redux", "CSS", "JavaScript"]
+    stacks: ["React", "Redux", "CSS", "JavaScript"],
+    desc: "A mobile app for checking the weather conditions of any city worldwide.",
+    live: "https://github.com/binyamolango/react-capstone-check-weather",
+    source: "https://weathercheckerby.netlify.app/"
   },
   {
     img: "./assets/space_travelers_hub.png",
     name: "Space Travelers' Hub",
-    stacks: ["React", "Redux", "CSS", "JavaScript"]
+    stacks: ["React", "Redux", "CSS", "JavaScript"],
+    desc: "Space Travelers' Hub is a web app that uses real live data from SpaceX API and gives the user services to book rockets and join selected space missions.",
+    live: "https://space-travelers-hub-76fy.onrender.com/",
+    source: "https://github.com/binyamolango/space-travelers-hub"
   },
   {
     img: "./assets/tv_shows.png",
     name: "Tv Shows",
-    stacks: ["JavaScript", "CSS", "External API", "HTML"]
+    stacks: ["JavaScript", "CSS", "External API", "HTML"],
+    desc: "Web app using that displays Tv Shows fetching from an external API.",
+    live: "https://github.com/binyamolango/javascript-capstone-tv-shows",
+    source: "#"
   },
   {
     img: "./assets/book_store.png",
     name: "Book Store App",
-    stacks: ["React", "Redux", "CSS", "JavaScript"]
+    stacks: ["React", "Redux", "CSS", "JavaScript"],
+    desc: "A web app for adding, deleting, managing, and accessing a wide range of books.",
+    live: "https://book-store-by.netlify.app/",
+    source: "https://github.com/binyamolango/book-store"
   }
 ];
 
