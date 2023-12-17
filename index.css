@@ -260,6 +260,7 @@ img {
   backdrop-filter: blur(12px);
   overflow-y: auto;
   margin: auto 0;
+  padding: 2em 0;
 }
 
 #popup .card {
