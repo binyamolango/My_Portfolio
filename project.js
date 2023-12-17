@@ -7,8 +7,8 @@ const projects = [
     name: "Weather App",
     stacks: ["React", "Redux", "CSS", "JavaScript"],
     desc: "A mobile app for checking the weather conditions of any city worldwide.",
-    live: "https://github.com/binyamolango/react-capstone-check-weather",
-    source: "https://weathercheckerby.netlify.app/"
+    live: "https://weathercheckerby.netlify.app/",
+    source: "https://github.com/binyamolango/react-capstone-check-weather"
   },
   {
     img: "./assets/space_travelers_hub.png",
@@ -23,8 +23,8 @@ const projects = [
     name: "Tv Shows",
     stacks: ["JavaScript", "CSS", "External API", "HTML"],
     desc: "Web app using that displays Tv Shows fetching from an external API.",
-    live: "https://github.com/binyamolango/javascript-capstone-tv-shows",
-    source: "#"
+    live: "#",
+    source: "https://github.com/binyamolango/javascript-capstone-tv-shows"
   },
   {
     img: "./assets/book_store.png",
