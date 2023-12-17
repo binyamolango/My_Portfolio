@@ -281,16 +281,13 @@ img {
   text-align: right;
 }
 
-.btn_row {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 .btn_row .project_btn {
   display: flex;
-  gap: 0.75em;
+  justify-content: space-between;
   align-items: center;
+  width: 70%;
+  margin: 1em auto;
+  max-width: 300px;
 }
 
 @media only screen and (min-width: 990px) {
@@ -301,6 +298,13 @@ img {
   #popup .card {
     width: 70%;
     max-width: 1080px;
+  }
+
+  .btn_row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
   }
 
   .container {
