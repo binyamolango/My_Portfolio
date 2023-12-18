@@ -23,7 +23,7 @@ const projects = [
     name: "Tv Shows",
     stacks: ["JavaScript", "CSS", "External API", "HTML"],
     desc: "Web app using that displays Tv Shows fetching from an external API.",
-    live: "#",
+    live: "https://tv-shows-byo.netlify.app/",
     source: "https://github.com/binyamolango/javascript-capstone-tv-shows"
   },
   {
