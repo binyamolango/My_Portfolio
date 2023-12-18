@@ -20,9 +20,9 @@ const projects = [
   },
   {
     img: "./assets/tv_shows.png",
-    name: "Tv Shows",
+    name: "TV Shows",
     stacks: ["JavaScript", "CSS", "External API", "HTML"],
-    desc: "Web app using that displays Tv Shows fetching from an external API.",
+    desc: "Web app that displays TV shows by fetching from an external API.",
     live: "https://tv-shows-byo.netlify.app/",
     source: "https://github.com/binyamolango/javascript-capstone-tv-shows"
   },
