@@ -33,6 +33,14 @@ const projects = [
     desc: "A web app for adding, deleting, managing, and accessing a wide range of books.",
     live: "https://book-store-by.netlify.app/",
     source: "https://github.com/binyamolango/book-store"
+  },
+  {
+    img: "./assets/jazz_festival.png",
+    name: "JazzDay Festival Website",
+    stacks: ["JavaScript", "CSS", "HTML"],
+    desc: "Jazz-concert is a website that gives detailed descriptions and information about an upcoming concert.",
+    live: "https://binyamolango.github.io/jazz-concert-capstone-project/",
+    source: "https://github.com/binyamolango/jazz-concert-capstone-project"
   }
 ];
 
@@ -45,10 +53,9 @@ projects.forEach((project, index) => {
       <div class="card-body">
         <h5 class="card-title">${project.name}</h5>
         <div class="card-text">
-          <div class="tag">${project.stacks[0]}</div>
-          <div class="tag">${project.stacks[1]}</div>
-          <div class="tag">${project.stacks[2]}</div>
-          <div class="tag">${project.stacks[3]}</div>
+          ${project.stacks.map(stack => (
+            `<div class="tag">${stack}</div>`
+            )).join('')}
         </div>
         <div class="project_btn_cont">
           <button class="project_btn">See project</button>

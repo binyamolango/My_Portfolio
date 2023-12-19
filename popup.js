@@ -17,10 +17,9 @@ function popupWindow(event) {
       <div class="card-body">
         <h5 class="card-title">${project.name}</h5>
         <div class="card-text">
-          <div class="tag">${project.stacks[0]}</div>
-          <div class="tag">${project.stacks[1]}</div>
-          <div class="tag">${project.stacks[2]}</div>
-          <div class="tag">${project.stacks[3]}</div>
+          ${project.stacks.map(stack => (
+          `<div class="tag">${stack}</div>`
+          )).join('')}
         </div>
         <p class="card-text">${project.desc}</p>
         <div class="project_btn_cont btn_row">
