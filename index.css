@@ -42,7 +42,7 @@ img {
 }
 
 .card-img-top {
-  height: 250px;
+  min-height: 250px;
 }
 
 .container {
