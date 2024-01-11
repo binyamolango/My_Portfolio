@@ -41,6 +41,10 @@ img {
   max-width: 100%;
 }
 
+.card-img-top {
+  height: 250px;
+}
+
 .container {
   width: 88%;
   margin: 0 auto;
@@ -139,6 +143,15 @@ img {
 .cards_cont {
   justify-content: center;
   padding: 2em 0.75em;
+}
+
+.card {
+  transform: scale(1);
+  transition: transform, 0.3s, ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.025);
 }
 
 .card-title {

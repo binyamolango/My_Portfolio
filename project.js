@@ -3,6 +3,14 @@ import popupWindow from "./popup.js";
 const portfolioCard = document.getElementById("portfolio_card");
 const projects = [
   {
+    img: "./assets/meal_app.png",
+    name: "Meal App",
+    stacks: ["React", "JavaScript", "Bootstrap", "HTML"],
+    desc: "Meal App is a meal web application based on an external API that displays meals based on categories and location. It can also allow the user the like and give comments.",
+    live: "https://edenic-meal-app.netlify.app/",
+    source: "https://github.com/binyamolango/meal-app"
+  },
+  {
     img: "./assets/weather_app.png",
     name: "Weather App",
     stacks: ["React", "Redux", "CSS", "JavaScript"],
@@ -49,7 +57,7 @@ projects.forEach((project, index) => {
   card.classList.add("col");
   card.innerHTML = `
     <div class="card" data-card-id="${index}">
-      <img src="${project.img}" class="card-img-top" alt="weather_app_img">
+      <img src="${project.img}" class="card-img-top" alt="project_img">
       <div class="card-body">
         <h5 class="card-title">${project.name}</h5>
         <div class="card-text">
