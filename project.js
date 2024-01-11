@@ -5,8 +5,8 @@ const projects = [
   {
     img: "./assets/meal_app.png",
     name: "Meal App",
-    stacks: ["React", "JavaScript", "Bootstrap", "HTML"],
-    desc: "Meal App is a meal web application based on an external API that displays meals based on categories and location. It can also allow the user the like and give comments.",
+    stacks: ["External API", "React", "JavaScript", "Bootstrap"],
+    desc: "Meal App is a meal web application based on an external API that displays meals based on categories and location. It can also allow the user to like and give comments.",
     live: "https://edenic-meal-app.netlify.app/",
     source: "https://github.com/binyamolango/meal-app"
   },
@@ -17,6 +17,14 @@ const projects = [
     desc: "A mobile app for checking the weather conditions of any city worldwide.",
     live: "https://weathercheckerby.netlify.app/",
     source: "https://github.com/binyamolango/react-capstone-check-weather"
+  },
+  {
+    img: "./assets/shopping-cart.png",
+    name: "Shopping Cart",
+    stacks: ["External API", "React", "JavaScript", "Bootstrap"],
+    desc: "Shopping Cart App is an e-commerce application based on an external API that displays shopping products based on different categories. It can also allow the user to select a product by inserting the quantity of their choice.",
+    live: "https://edenicshopping.netlify.app/",
+    source: "https://github.com/binyamolango/shopping-cart"
   },
   {
     img: "./assets/space_travelers_hub.png",
