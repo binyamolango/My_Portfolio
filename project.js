@@ -31,7 +31,7 @@ const projects = [
     name: "Space Travelers' Hub",
     stacks: ["React", "Redux", "CSS", "JavaScript"],
     desc: "Space Travelers' Hub is a web app that uses real live data from SpaceX API and gives the user services to book rockets and join selected space missions.",
-    live: "https://space-travelers-hub-76fy.onrender.com/",
+    live: "https://edenic-space-travelers.netlify.app/",
     source: "https://github.com/binyamolango/space-travelers-hub"
   },
   {
