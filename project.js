@@ -3,6 +3,14 @@ import popupWindow from "./popup.js";
 const portfolioCard = document.getElementById("portfolio_card");
 const projects = [
   {
+    img: "./assets/recipe_app.png",
+    name: "Recipe App",
+    stacks: ["Ruby on Rails", "PostgreSQL", "ERB", "Bootstrap"],
+    desc: "An app that keeps track of all users' recipes and ingredients. It will allow the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user have and missing from a recipe.",
+    live: "https://edenic-recipe-i1dt.onrender.com/",
+    source: "https://github.com/binyamolango/recipe_app2"
+  },
+  {
     img: "./assets/meal_app.png",
     name: "Meal App",
     stacks: ["External API", "React", "JavaScript", "Bootstrap"],
