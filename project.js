@@ -3,12 +3,12 @@ import popupWindow from "./popup.js";
 const portfolioCard = document.getElementById("portfolio_card");
 const projects = [
   {
-    img: "./assets/recipe_app.png",
-    name: "Recipe App",
+    img: "./assets/edenic-budget.png",
+    name: "Budget App",
     stacks: ["Ruby on Rails", "PostgreSQL", "ERB", "Bootstrap"],
-    desc: "An app that keeps track of all users' recipes and ingredients. It will allow the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user have and missing from a recipe.",
-    live: "https://edenic-recipe-i1dt.onrender.com/",
-    source: "https://github.com/binyamolango/recipe_app2"
+    desc: "A mobile web application where users can manage their budget: they have a list of transactions associated with a category, so that they can see how much money they spent and on what.",
+    live: "https://edenic-budget-app.onrender.com/",
+    source: "https://github.com/binyamolango/budget_app"
   },
   {
     img: "./assets/meal_app.png",
