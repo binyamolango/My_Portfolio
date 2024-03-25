@@ -3,9 +3,17 @@ import popupWindow from "./popup.js";
 const portfolioCard = document.getElementById("portfolio_card");
 const projects = [
   {
+    img: "./assets/medical_appointment_app.png",
+    name: "Medical Appointment App",
+    stacks: ["Ruby on Rails", "PostgreSQL", "React", "TailwindCSS"],
+    desc: "A web app for reserving doctors simplifies the process of scheduling medical appointments. It allows users to browse & select available doctors, view their profiles and specialties and book appointments based on their preferred date and time. The application streamlines the reservation process, saving time for both patients & healthcare providers.",
+    live: "https://capstone-module-front-end.vercel.app/",
+    source: "https://github.com/binyamolango/capstone-module-front-end"
+  },
+  {
     img: "./assets/recipe_app.png",
     name: "Recipe App",
-    stacks: ["Ruby on Rails", "PostgreSQL", "ERB", "Bootstrap"],
+    stacks: ["Ruby on Rails", "PostgreSQL", "Bootstrap"],
     desc: "An app that keeps track of all users' recipes and ingredients. It will allow the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user have and missing from a recipe.",
     live: "https://edenic-recipe-i1dt.onrender.com/",
     source: "https://github.com/binyamolango/recipe_app2"
