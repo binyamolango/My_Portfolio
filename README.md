@@ -1,5 +1,4 @@
 # my_portfolio
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
